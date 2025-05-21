@@ -8,7 +8,6 @@ import { removeFromCart, updateQuantity } from "../features/cart/cartSlice";
 const Cart = () => {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
-  console.log(cartItems[0], "first item in cart");
 
   const total = cartItems.reduce(
     (sum, item) => sum + item.price * item.quantity,
