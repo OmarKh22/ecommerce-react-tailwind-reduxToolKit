@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import { Provider } from 'react-redux';
 import {store} from './app/store'
 import SignupForm from './components/SignupForm';
+import PrivateRoute from './pages/PrivateRoute';
 
 function App() {
   return (
@@ -14,10 +15,19 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/product/:id" element={<ProductsDetails />} />
-          <Route path="/cart" element={<Cart />} />
           <Route path="/signup" element={<SignupForm />} />
+          <Route
+            path="*"
+            element={
+              <PrivateRoute>
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/product/:id" element={<ProductsDetails />} />
+                  <Route path="/cart" element={<Cart />} />
+                </Routes>
+              </PrivateRoute>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </Provider>

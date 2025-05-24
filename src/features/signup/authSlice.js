@@ -9,7 +9,7 @@ const authSlice = createSlice({
   initialState,
   reducers: {
     signup: (state, action) => {
-      state.user = action.payload; // You can customize as needed
+      state.user = action.payload; 
     },
   },
 });
