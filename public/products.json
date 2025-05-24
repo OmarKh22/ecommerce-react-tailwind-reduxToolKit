@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Headphones",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "High-quality wireless headphones with noise cancellation and 20-hour battery life.",
+    "image": "https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 2,
+    "title": "Running Shoes",
+    "price": 59.95,
+    "category": "Footwear",
+    "description": "Comfortable running shoes with excellent grip and cushioning.",
+    "image": "https://images.pexels.com/photos/2529147/pexels-photo-2529147.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 3,
+    "title": "Smart Watch",
+    "price": 129.99,
+    "category": "Electronics",
+    "description": "Smartwatch with heart rate monitor, GPS, and water resistance.",
+    "image": "https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 4,
+    "title": "Backpack",
+    "price": 39.9,
+    "category": "Accessories",
+    "description": "Stylish backpack with multiple compartments and laptop sleeve.",
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 5,
+    "title": "Coffee Maker",
+    "price": 49.99,
+    "category": "Appliances",
+    "description": "Programmable coffee maker with 12-cup capacity and auto-shutoff.",
+    "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 6,
+    "title": "Laptop",
+    "price": 999.99,
+    "category": "Electronics",
+    "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+    "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 7,
+    "title": "Sunglasses",
+    "price": 29.99,
+    "category": "Accessories",
+    "description": "Polarized sunglasses with UV protection and stylish design.",
+    "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 8,
+    "title": "Yoga Mat",
+    "price": 24.95,
+    "category": "Fitness",
+    "description": "Non-slip yoga mat with extra cushioning for comfort.",
+    "image": "https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 9,
+    "title": "Blender",
+    "price": 69.99,
+    "category": "Appliances",
+    "description": "Powerful blender with multiple speeds for smoothies and soups.",
+    "image": "https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 10,
+    "title": "Gaming Mouse",
+    "price": 49.99,
+    "category": "Electronics",
+    "description": "Ergonomic gaming mouse with customizable RGB lighting.",
+    "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 11,
+    "title": "Water Bottle",
+    "price": 19.99,
+    "category": "Accessories",
+    "description": "Insulated stainless steel water bottle, keeps drinks cold for 24 hours.",
+    "image": "https://images.pexels.com/photos/1188548/pexels-photo-1188548.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 12,
+    "title": "Desk Lamp",
+    "price": 34.95,
+    "category": "Home",
+    "description": "Adjustable LED desk lamp with touch control and USB charging port.",
+    "image": "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 13,
+    "title": "Wireless Charger",
+    "price": 29.99,
+    "category": "Electronics",
+    "description": "Fast wireless charger compatible with all Qi-enabled devices.",
+    "image": "https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 14,
+    "title": "Dumbbell Set",
+    "price": 89.99,
+    "category": "Fitness",
+    "description": "Adjustable dumbbell set for home workouts, up to 50 lbs.",
+    "image": "https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 15,
+    "title": "Electric Kettle",
+    "price": 39.99,
+    "category": "Appliances",
+    "description": "1.7L electric kettle with rapid boil and auto-shutoff.",
+    "image": "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 16,
+    "title": "Portable Speaker",
+    "price": 59.99,
+    "category": "Electronics",
+    "description": "Bluetooth portable speaker with waterproof design and 12-hour battery.",
+    "image": "https://images.pexels.com/photos/2651794/pexels-photo-2651794.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 17,
+    "title": "Wristwatch",
+    "price": 99.95,
+    "category": "Accessories",
+    "description": "Classic stainless steel wristwatch with leather strap.",
+    "image": "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 18,
+    "title": "Air Purifier",
+    "price": 149.99,
+    "category": "Appliances",
+    "description": "HEPA air purifier for rooms up to 500 sq ft with smart sensors.",
+    "image": "https://images.pexels.com/photos/4235633/pexels-photo-4235633.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 19,
+    "title": "Tennis Racket",
+    "price": 79.99,
+    "category": "Sports",
+    "description": "Lightweight tennis racket with excellent control and power.",
+    "image": "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 20,
+    "title": "Camping Tent",
+    "price": 129.99,
+    "category": "Outdoor",
+    "description": "4-person camping tent with waterproof coating and easy setup.",
+    "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 21,
+    "title": "Kitchen Knife Set",
+    "price": 69.95,
+    "category": "Kitchen",
+    "description": "5-piece stainless steel knife set with ergonomic handles.",
+    "image": "https://images.pexels.com/photos/53114/pexels-photo-53114.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 22,
+    "title": "Gaming Chair",
+    "price": 199.99,
+    "category": "Furniture",
+    "description": "Ergonomic gaming chair with lumbar support and adjustable armrests.",
+    "image": "https://images.pexels.com/photos/5696277/pexels-photo-5696277.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 23,
+    "title": "Smart Bulb",
+    "price": 24.99,
+    "category": "Electronics",
+    "description": "Wi-Fi smart bulb with color-changing and dimmable features.",
+    "image": "https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 24,
+    "title": "Hiking Boots",
+    "price": 89.99,
+    "category": "Footwear",
+    "description": "Waterproof hiking boots with ankle support and durable soles.",
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=800"
+  }
+]
