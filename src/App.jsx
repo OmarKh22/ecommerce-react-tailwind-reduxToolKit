@@ -8,6 +8,8 @@ import { Provider } from 'react-redux';
 import {store} from './app/store'
 import SignupForm from './components/SignupForm';
 import PrivateRoute from './pages/PrivateRoute';
+import Favorites from './components/Favorites';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
                   <Route path="/" element={<Home />} />
                   <Route path="/product/:id" element={<ProductsDetails />} />
                   <Route path="/cart" element={<Cart />} />
+                  <Route path="/favorites" element={<Favorites />} />
                 </Routes>
               </PrivateRoute>
             }

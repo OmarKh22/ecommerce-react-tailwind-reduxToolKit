@@ -1,4 +1,4 @@
-import { ShoppingBag, StoreIcon, User2 } from "lucide-react";
+import { Heart, ShoppingBag, StoreIcon, User2 } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -39,21 +39,11 @@ const Navbar = () => {
               </li>
             </div>
 
-            <div
-              // className={`${
-              //   isOpen
-              //     ? "flex flex-col absolute right-0 md:right-0 top-12 z-10 bg-zinc-50 p-4 gap-4"
-              //     : "hidden"
-              // }`}
-              className="flex  bg-zinc-50 p-4 gap-4"
-            >
+            <div className="flex  bg-zinc-50 p-4 gap-4">
               {user ? (
                 <>
                   <li className="text-gray-600">
                     Welcome, <strong>{user.username}</strong>
-                  </li>
-                  <li>
-                    {/* <Link to="/">My Account</Link> */}
                   </li>
                 </>
               ) : (
@@ -62,12 +52,6 @@ const Navbar = () => {
                 </li>
               )}
             </div>
-
-            {/* <User2
-              size={40}
-              className="bg-gray-200 p-2 text-black rounded cursor-pointer"
-              onClick={handleUser}
-            /> */}
           </ul>
         </div>
 
@@ -88,7 +72,10 @@ const Navbar = () => {
             />
           </form>
 
-          <div className="relative">
+          <div className="relative flex items-center gap-4">
+            <Link to={"/favorites"} className="py-2 px-2 rounded">
+              <Heart />
+            </Link>
             <Link to={"/cart"} className="py-2 px-2 rounded">
               <ShoppingBag />
               {itemCount > 0 && (
