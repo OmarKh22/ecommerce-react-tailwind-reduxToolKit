@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setSearchTerm } from "../features/products/productSlice";
+import { signout } from "../features/signup/authSlice";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,11 @@ const Navbar = () => {
 
   const handleUser = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleLogout = () => {
+    dispatch(signout());
+    navigate("/signup"); 
   };
 
   return (
@@ -44,6 +50,11 @@ const Navbar = () => {
                 <>
                   <li className="text-gray-600">
                     Welcome, <strong>{user.username}</strong>
+                  </li>
+                  <li>
+                    <button onClick={handleLogout} className="hover:underline">
+                      SignOut
+                    </button>
                   </li>
                 </>
               ) : (
